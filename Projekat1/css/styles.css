@@ -209,7 +209,7 @@ iframe {
 	margin: 9px 30px;
 	color: white;
 	font-size: .9em;
-	border-left: 1px solid #2D0404;
+	border-left: 1px solid white;
 	/*border-right:1px solid white;*/
 }
 a#marakana {
@@ -232,9 +232,8 @@ a#kalemegdan {
 #kalemegdan:hover {
 	font-size: 1.3em;
 }
-}
 div#topSlika {
-	border-left: 1px solid #7A0000;
+	border-left: 1px solid #2D0404;
 }
 .centered {
 	position: absolute;
