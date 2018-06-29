@@ -1,0 +1,265 @@
+body {
+	width: 1000px;
+	margin: 0 auto;
+	background-image: url("http://www.novimagazin.rs/public/uploads_ck/images/54fa47c7.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+.container {
+	width: 1000px;
+	position: absolute;
+	box-shadow: 2px 2px 53px 37px rgba(3, 3, 3, 0.74);
+}
+div#header {
+	height: 150px;
+	width: 1000px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+div#nav {
+	margin-top: 150px;
+	margin-bottom: 60px;
+	position: fixed;
+	top: 0;
+	height: 40px;
+	width: 1000px;
+	background-color: #A5010A;
+	padding: auto;
+	box-shadow: 0px 5px 21px 2px rgba(0, 0, 0, 0.75);
+	z-index: 99;
+}
+div#main {
+	width: 1000px;
+	float: left;
+	background-color: white;
+	margin-top: 120px;
+}
+div#content {
+	width: 850px;
+	float: left;
+	height: auto;
+	background-color: white;
+	box-sizing: border-box;
+	margin-bottom: 70px;
+	margin-top: 90px;
+}
+div#sidebar {
+	height: auto;
+	width: 150px;
+	float: right;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-top: 70px;
+}
+div#footerBottom {
+	height: 50px;
+	width: 1000px;
+	float: left;
+	position: fixed;
+	bottom: 0;
+	background-color: #10111A;
+	box-shadow: 0px 5px 25px 2px rgba(0, 0, 0, 0.75);
+}
+ul.navUl {
+	list-style-type: none;
+	margin-top: 1px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #A5010A;
+	box-sizing: border-box;
+}
+li {
+	float: left;
+}
+a.current {
+	background-color: #7A0000;
+}
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: #7A0000;
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;
+}
+li.dropdown {
+	display: inline-block;
+}
+a>img:hover {
+	-webkit-filter: brightness(0.3);
+	filter: brightness(0.6);
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #0B5FA8;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: #7A0000;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+div.dropdown-content>a {
+	background-color: #A5010A;
+	color: white;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	margin-right: 20px;
+	right: 0;
+	opacity: 0.7;
+	color: white;
+}
+h1 {
+	text-align: center;
+	margin: 35px 10px;
+	font-weight: bolder;
+	font-size: 1.3em;
+	line-height: 1.6em;
+}
+sidebar>h1 {
+	text-align: center;
+	line-height: 1.6em;
+}
+h2 {
+	text-align: center;
+	margin: 30px 10px;
+	font-size: 1.5em;
+}
+.spoljneVeze {
+	font-size: 15px;
+	font-weight: bolder;
+}
+p {
+	text-align: justify;
+	margin: 17px 17px;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	font-family: "Roboto Slab", "Times New roman", sans-serif;
+	padding-left: 10px;
+}
+.bari {
+	border-radius: 10px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 3px;
+	margin-top: 7px;
+}
+.bari2 {
+	border-radius: 10px;
+	float: right;
+	margin: 1px 8px;
+}
+iframe {
+	margin: 30px;
+	border: 3px solid black;
+}
+img.tokio {
+	border-radius: 10px;
+	padding: 5px;
+	float: right;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+.stadion {
+	border-radius: 10px;
+	padding: 5px;
+	float: right;
+	margin: 4px 35px;
+}
+.navijaci {
+	border-radius: 10px;
+	padding: 5px;
+	float: right;
+	margin-left: 15px;
+}
+.navijaci-1 {
+	float: left;
+	margin-right: 20px;
+}
+/*.sidebarLinks>a {
+	
+	font-weight:bolder;
+	font-family: Tahoma;
+	text-decoration:none;
+	text-align:center;
+}*/
+
+/*#fifa,#fifa,#uefa,#basket {
+	
+	width: 100px;
+    height: 100px;
+	
+}*/
+
+#footerLinks {
+	width: 1000px;
+	height: 80px;
+}
+#footerLinks>div {
+	float: left;
+	padding-left: 35px;
+	margin: 9px 30px;
+	color: white;
+	font-size: .9em;
+	border-left: 1px solid white;
+	/*border-right:1px solid white;*/
+}
+a#marakana {
+	text-decoration: none;
+	font-size: 1.2em;
+	color: white;
+	font-weight: bolder;
+	font-family: 'Russo One', sans-serif;
+}
+#marakana:hover {
+	font-size: 1.3em;
+}
+a#kalemegdan {
+	text-decoration: none;
+	font-size: 1.2em;
+	color: white;
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+#kalemegdan:hover {
+	font-size: 1.3em;
+}
+div#topSlika {
+	border-left: 1px solid #10111A;
+}
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 50px;
+	margin-left: 45px;
+}
+.top-left {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
