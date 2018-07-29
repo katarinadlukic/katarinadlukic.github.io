@@ -1,0 +1,107 @@
+ body {
+     font-family: Tahoma, Geneva, sans-serif;
+ }
+ 
+ * {
+     box-sizing: border-box;
+ }
+ 
+ main {
+     box-shadow: 7px 7px 5px 0px rgba(184, 173, 184, 1);
+     width: 600px;
+     border: 1px solid lightgray;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: stretch;
+     margin: 5px;
+ }
+ 
+ #container {
+     width: auto;
+ }
+ 
+ input {
+     padding-left: 6px;
+     margin-left: 15px;
+     border-left: none;
+     border-bottom: 1px solid gray;
+     border-right: none;
+     border-top: none;
+     width: 550px;
+     height: 40px;
+     font-size: 18px;
+ }
+ 
+ input:focus {
+     outline: 0;
+ }
+ 
+ button {
+     display: inline-block;
+     cursor: pointer;
+     height: 35px;
+     width: 150px;
+     color: white;
+ }
+ 
+ #myBtn {
+     background-color: rgb(75, 168, 159);
+ }
+ 
+ #saveList {
+     background-color: rgb(75, 168, 159);
+ }
+ 
+ #clearTaskBtn {
+     background-color: black;
+ }
+ 
+ h2 {
+     color: gray;
+     margin-left: 15px;
+ }
+ 
+ ul {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ ul li {
+     position: relative;
+     padding: 12px 8px 12px 20px;
+     list-style-type: none;
+     background: white;
+     font-size: 18px;
+     width: auto;
+     border: 1px solid lightgray;
+     user-select: none;
+ }
+ 
+ a {
+     word-wrap: break-word;
+ }
+ 
+ ul li:hover {
+     background: rgb(240, 234, 226);
+ }
+ 
+ .clear {
+     cursor: pointer;
+     color: rgb(212, 132, 41);
+     font-weight: bolder;
+     position: absolute;
+     right: 0;
+     top: 0;
+     margin-right: 20px;
+     margin-bottom: 20px;
+     margin-top: 10px;
+ }
+ 
+ @media screen and (max-width: 480px) {
+     main,
+     input {
+         height: auto;
+         width: auto;
+     }
+ }

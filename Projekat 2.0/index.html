@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Task List</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h2>Task list</h2>
+            <br>
+            <input autocomplete="on" type="text" name="newTask" id="inputTask" placeholder="New Task" autofocus>
+            <br>
+            <br>
+            <button id="myBtn" onclick="newTask()">ADD TASK</button>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="container" id="taskContainer">
+            <h2>Tasks</h2>
+            <br>
+            <input onkeyup="filterTask()" type="text" name="tasks" id="filterInput" placeholder="Filter Tasks">
+            <br>
+            <br>
+            <br>
+            <ul id="taskLista">
+            </ul>
+            <br>
+            <button id="saveList" onclick="saveList()">SAVE LIST</button>
+            <button id="clearTaskBtn" onclick="clearAll()">CLEAR TASKS</button>
+        </div>
+        <br>
+    </main>
+    <script src="main.js">    
+    </script>
+</body>
+
+</html>
