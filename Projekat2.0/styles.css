@@ -32,9 +32,12 @@
      height: 40px;
      font-size: 18px;
  }
- 
+
  input:focus {
      outline: 0;
+ }
+ input:hover {
+     box-shadow: 7px 7px 5px 0px rgba(184, 173, 184, 1);
  }
  
  button {
