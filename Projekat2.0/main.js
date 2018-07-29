@@ -28,7 +28,7 @@ let myLists = document.getElementsByTagName("LI");
             let clear = document.getElementsByClassName("clear");
             for (let i = 0; i < clear.length; i++) {
                 clear[i].onclick = function() {
-                    let question = confirm("Are you sure you want to clear task?");
+                    let question = confirm("Are you sure you want to clear this task?");
                     if (question == true) {
                         let lis = this.parentElement;
                         lis.style.display = "none";
@@ -53,8 +53,6 @@ let myLists = document.getElementsByTagName("LI");
                     allTasks.removeChild(sveListe[i]);
                 }
             }
-            const myListObj = document.getElementById("taskLista").innerHTML;
-            localStorage.setItem('savedListObj', myListObj);
         }
 
         function filterTask() {
@@ -78,7 +76,7 @@ let myLists = document.getElementsByTagName("LI");
         let clear = document.getElementsByClassName("clear");
         for (let i = 0; i < clear.length; i++) {
             clear[i].onclick = function() {
-                let question = confirm("Are you sure you want to clear task?");
+                let question = confirm("Are you sure you want to clear this task?");
                 if (question == true) {
                     let lis = this.parentElement;
                     lis.style.display = "none";
