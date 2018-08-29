@@ -1,0 +1,323 @@
+/*
+* Main CSS style for frontend
+*/
+
+body {
+	margin: 0;
+	font-family: Helvetica;
+
+	background-color:#E9EBEE;
+	height: 100%;
+	
+}
+input {
+	background-color: white;
+	box-shadow: 1px 1px 1px rgb(116, 110, 110);
+	border-radius: 3px;
+	
+}
+.inputlogin{
+	margin-left:5px;
+}
+.indexForm{
+	height: 30px;
+	width: 220px;
+	background-color: white;
+	box-shadow: 1px 1px 1px rgb(116, 110, 110);
+	border-radius: 3px;
+	margin-left:20px;
+	margin-right: 20px;
+	padding-left:6px;
+}
+.header {
+	background: rgb(20, 20, 20);
+	color: #fff;
+	padding: 20px;
+	height: 60px;
+}
+#btnProfile{
+height: 30px;
+
+}
+#btnStatus{
+	height: 30px;
+	width: 70px;
+}
+#btnImage{
+	height: 30px;
+}
+#status{
+	height: 8px;
+	width: 250px;
+	padding: 10px;
+}
+div.brand {
+    width: 250px;
+    float: left;
+	margin-top: 13px;
+	margin-left:200px;
+	font-size: 30px;
+	font-weight: bolder;
+}
+button{
+	color:rgb(241, 237, 243);
+	background-color:rgb(77, 20, 112);
+
+	border-color: rgb(51, 8, 78);
+
+	border-radius: 4px;
+	
+	cursor: pointer;
+}
+#submit-signup{
+	width:120px;
+	height: 30px;
+	background: rgb(77, 20, 112);
+	margin: 20px;
+}
+#submit-signin{
+	width:90px;
+	height: 30px;
+	background: rgb(77, 20, 112);
+
+}
+#submit-signin:hover{
+	background-color:rgb(140, 86, 173);
+}
+#submit-signup:hover{
+	background-color:rgb(140, 86, 173);
+}
+button:hover {
+    background-color:rgb(140, 86, 173);
+
+}
+#bb:hover {
+    background-color:rgb(140, 86, 173);
+
+}
+.brand {
+    width: 150px;
+    float: left;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+#login-form {
+	float: right;
+}
+#login-error {
+	height: 15px;
+    font-size: 10px;
+}
+#user-image img {
+	
+		max-width: 260px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		text-align: center;
+	
+}
+.content {
+	padding: 20px;
+}
+#signup-form label {
+	width: 200px;
+	display: inline-block;
+	align:right;
+	color:rgb(71, 70, 70);
+	font-weight: 700;
+	
+}
+.inputForm{
+padding: 4px;
+}
+label#bb {
+	padding: 6px;
+    background: rgb(124, 19, 115); 
+	color: #fff;
+font-size: 13px;
+display: inline;
+border-radius: 4px;
+cursor: pointer;
+border:1px solid black;
+	 }
+
+input[type="file"] {
+    display: none;
+}
+
+#signup-form .form-group {
+	
+	margin: 10px 0;
+	margin-left: 40px;
+	border-radius: .25rem;
+}
+#navbar {
+	float: right;
+	margin-top: 20px;
+}
+#navbar a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 15px;
+}
+.error-msg {
+    background: #ff6a30;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fdf0e7;
+    font-size: 12px;
+}
+.success-msg {
+	background: #47b947;
+    padding: 10px;
+    border-radius: 5px;
+    color: #eaecea;
+    font-size: 12px;
+}
+.left-sidebar {
+	width: 300px;
+    float: left;
+}
+.feed-body img {
+	max-width: 700px;
+	max-height: 600px;
+}
+.main-content {
+	display: inline-block;
+    width: calc(100% - 400px);
+}
+.new-feed, #feed-list {
+	padding-left: 20px;
+	margin-bottom: 40px;
+}
+#feed-list{
+	margin-top: 30px;
+}
+.new-feed{}
+.add-feed {
+	width: 350px;
+	float: left;
+
+	display: inline;
+}
+.add-image{
+	display: inline;
+	float: right;
+	margin-right: 5px;
+
+}
+#success, #errors{
+	margin-bottom: 20px;
+}
+.feed-content {
+	background: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #e2dede;
+	margin-bottom: 10px;
+
+}
+div#username{
+margin: 20px;
+margin-left: 0;
+font-size: 25px;
+text-decoration: underline;
+}
+img{
+	margin:5px;
+}
+.feed-author img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 5px;
+}
+.feed-author a {
+	display: block;
+}
+.feed-author {
+	width: 150px;
+	float: left;
+}
+.created {
+	float: right;
+}
+.feed-body {
+	display: inline-block;
+	width: calc(100% - 200px);
+}
+#image-container {
+
+    width: 68%;
+    float: left;
+    background: black;
+	padding: 10px;
+}
+#image {
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+img.author-image{
+max-width: 150px;
+max-height: 150px;
+}
+#comments {
+	margin-bottom: 20px;
+
+    overflow-y: scroll;
+}
+#image img {
+	max-width: 700px;
+}
+#image-comments-container {
+	width: 26%;
+    float: right;
+    background: #f5f5f5;
+    padding: 20px;
+}
+.comment-author-image {
+    width: 20px;
+    float: left;
+    margin-right: 10px;
+}
+.comment-datetime {
+    font-size: 11px;
+    margin: 0 0 30px;
+}
+.comment-author-name {
+	font-size: 12px;
+}
+div#signup-form{
+	width:600px;
+	float: right;
+	margin-right:100px;
+	margin-top:20px;
+	
+}
+h2{
+	font-weight: 700;
+	color:rgb(77, 20, 112);
+	text-shadow: 2px 2px 10px rgb(30, 8, 44);
+	font-size: 50px;
+}
+.error-msg {
+    background: #ff3030;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fdf0e7;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.success-msg {
+	background: #47b947;
+    padding: 10px;
+    border-radius: 5px;
+    color: #eaecea;
+    font-size: 12px;
+}
+#new-comment{
+	padding: 5px;
+}
+#commentBtn{
+padding: 4px
+}
