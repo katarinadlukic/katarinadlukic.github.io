@@ -52,10 +52,10 @@ height: 30px;
 	padding: 10px;
 }
 div.brand {
-    width: 250px;
+    width: 200px;
     float: left;
 	margin-top: 13px;
-	margin-left:200px;
+	margin-left:100px;
 	font-size: 30px;
 	font-weight: bolder;
 }
